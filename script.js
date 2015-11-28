@@ -1,7 +1,7 @@
 var map;
 
 function init() {
-  map = new Ol.Map({
+  map = new ol.Map({
     target: 'map',
     layers: [
       new ol.layer.Tile({
